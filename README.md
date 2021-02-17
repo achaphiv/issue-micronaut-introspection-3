@@ -1,12 +1,9 @@
-## Micronaut 2.3.1 Documentation
+# The issue
 
-- [User Guide](https://docs.micronaut.io/2.3.1/guide/index.html)
-- [API Reference](https://docs.micronaut.io/2.3.1/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/2.3.1/guide/configurationreference.html)
-- [Micronaut Guides](https://guides.micronaut.io/index.html)
----
+This fails:
 
-## Feature http-client documentation
+```bash
+./gradlew test
+```
 
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
-
+The test in question: [IntrospectedAndJsonNamingTest.java](./src/test/java/com/example/IntrospectedAndJsonNamingTest.java)
