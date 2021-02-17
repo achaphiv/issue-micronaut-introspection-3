@@ -1,5 +1,7 @@
 # The issue
 
+[Report](https://github.com/micronaut-projects/micronaut-core/issues/4948)
+
 This fails:
 
 ```bash
